@@ -6,8 +6,8 @@ This generator is based of [generator-gruntplugin](https://github.com/yeoman/gen
 
 This is original from [generator-gruntplugin](https://github.com/yeoman/generator-gruntplugin), but easy-gruntplugin modify the following features.
 
-1. Move /test/*.test.js file to root folder.
-2. Move /task/ folder to root folder.
+1. Move `/test/*.test.js` file to root folder.
+2. Move `/task/` folder to root folder.
 3. Add bower.json
 4. Add component.json
 5. Add default keywords
@@ -34,7 +34,7 @@ _Note that this template will generate files in the current directory, so be sur
 
 ## Transcript
 
-```shell
+```sh
 $ yo gruntplugin
 
      _-----_
