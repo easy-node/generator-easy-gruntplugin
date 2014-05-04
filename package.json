@@ -1,0 +1,52 @@
+{
+  "name": "generator-easy-gruntplugin",
+  "version": "0.0.1",
+  "description": "Create an easy gruntplugin module with yo, including Nodeunit unit tests.",
+  "keywords": [
+    "yeoman-generator",
+    "scaffold",
+    "grunt",
+    "gruntplugin",
+    "easy gruntplugin",
+    "plugin",
+    "easy",
+    "easy-node",
+    "yeoman-easy-generator"
+  ],
+  "author": {
+    "name": "huei90",
+    "email": "huei90@gmail.com",
+    "url": "https://github.com/huei90"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easy-node/generator-easy-gruntplugin.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0",
+    "npm-name": "~0.1.0"
+  },
+  "devDependencies": {
+    "glob": "3.2.x",
+    "mocha": "*",
+    "jshint": "2.4.x",
+    "jshint-stylish": "0.1.x"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
